@@ -1,0 +1,31 @@
+#formulario{
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.titulo{
+
+    height: 50px;
+    background-color: rgb(35, 35, 192);
+    color: aliceblue;
+    
+}
+
+.subtitulo{
+
+    text-align: left;
+    padding: 4px 8px;
+    color: aliceblue;
+    background-color: rgb(22, 64, 155);
+    font-weight: 400;
+    height: 20px;
+}
+
+.input{
+
+    text-align: left;
+    height: 30px;
+    background-color: rgb(203, 203, 255);
+    padding: 2px 4px;
+}

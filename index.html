@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/tabela.css">
+
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <table id="formulario">
+                <tr>
+                    <th class="titulo" colspan="2">FORMULÁRIO CADASTRO</th>
+                </tr>
+                <tr>
+                    <th class="subtitulo" colspan="2">Nome</th>
+                </tr>
+                <tr>
+                    <td id="txtNome" class="input" colspan="2">
+                        <input type="text" name="txtNome" id="txtNome">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="subtitulo">Idade</th>
+                    <th class="subtitulo">Sexo</th>
+                </tr>
+                <tr>
+                    <td id="numberIdade" class="input">
+                        <input type="number" name="numberIdade" id="numberIdade">
+                    </td>
+                    <td id="selectSexo" class="input">
+                        <select name="selectSexo" id="selectSexo">
+                            <option value="feminino">Feminino</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="subtitulo" colspan="2">E-mail</th>
+                </tr>
+                <tr>
+                    <td id="emailEmail" class="input" colspan="2">
+                        <input type="email" name="emailEmail" id="emailEmail">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="subtitulo">Celular</th>
+                    <th class="subtitulo">Data de Nascimento </th>
+                </tr>
+                <tr>
+                    <td id="telCelular" class="input">
+                        <input type="tel" name="telCelular" id="telCelular">
+                    </td>
+                    <td id="dateNascimento" class="input">
+                        <input type="date" name="dateNascimento" id="dateNascimento">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="envio">
+                        <input type="submit" value="Cadastrar">
+                        <input type="reset" value="Limpar">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+
+</html>
